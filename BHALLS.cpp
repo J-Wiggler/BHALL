@@ -16,7 +16,7 @@ static string ballsify(string message) {
       tempBlock = empty;
     }
   }
-  if (tempBlock.size() < blockSize) {
+  if (tempBlock.size() < blockSize && tempBlock.size() != 0) {
     blocks.push_back(tempBlock);
   }
   int count = 0;
